@@ -13,7 +13,6 @@ public class Main {
             System.out.println("start!");
         }catch (TelegramApiException e){
             throw new RuntimeException(e);
-
         }
     }
 }
